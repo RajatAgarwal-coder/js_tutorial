@@ -1,0 +1,37 @@
+h1{
+    background-color: yellow;
+    color: black;
+    text-align: center;
+}
+
+.eventBox{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+}
+
+.eventBox:hover{
+    background-color: blueviolet;
+}
+
+.ligth{
+    background-color: wheat;
+    color: black;
+}
+
+.dark{
+    background-color: black;
+    color: wheat;
+}
+
+#modes{
+    height: 40px;
+    width: 90px;
+    background-color: rgb(168,85,247);
+    border: 2px solid black;
+    border-radius: 25px;
+    text-align: center;
+    position: fixed;
+    top: 5px;
+    left: 90%;
+}
