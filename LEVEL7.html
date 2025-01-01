@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEVEL7</title>
+    <link rel="stylesheet" href="LEVEL7.css">
+</head>
+<body>
+
+    <!-- This is Events Example -->
+
+    <h1>1. Inline Event Handling </h1>
+    
+    <button onclick="console.log('Button was clicked by user in Inline Handling');">Click Me !</button> 
+
+    <button ondblclick="console.log('Button was clicked Twice in Inline Handling')">Click Me Twice</button><br><br>
+
+    <div class ="eventBox" onmouseover="console.log('The Cursor is inside the div box in Inline Handling')"> 
+        Please Hovering the mouse on me
+    </div><hr>
+
+    <h1>2. External Event Handling </h1>
+
+    <button id="extev_1">Click Me</button><br><br>
+
+    <div id="extev_2" class="eventBox">
+        Please Hovering the mouse on me
+    </div><hr>
+
+    <h1>Event Object</h1>
+
+    <div class ="eventBox" id="evobj"> Hover inside me</div>
+
+    <h1>Event Listener</h1>
+    <div id="evelist" class="eventBox">
+        This is the box in which Event Listener is applied
+    </div><hr>
+
+    <!-- Practice 1 -->
+
+    <button id="toogleBtn"> Mode Button </button>
+
+    <!-- Self Thinking -->
+
+    <button id="modes">
+        <div>Switch to</div>
+        <div>Dark Mode</div>
+    </button>
+
+    <script src="LEVEL7.js"></script>
+    
+</body>
+</html>
